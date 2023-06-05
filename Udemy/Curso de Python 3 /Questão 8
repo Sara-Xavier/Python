@@ -9,4 +9,5 @@ def par_impar(numero):
     else:
         return f"{numero} é ímpar"
 
-print(par_impar(2))
+numero = int(input())
+print(par_impar(numero))
