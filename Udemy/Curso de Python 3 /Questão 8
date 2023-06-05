@@ -2,6 +2,11 @@
 #o numero é par ou impar
 
 def par_impar(numero):
-    return numero % 2 == 0
+    multiplo_de_dois = numero % 2 == 0
+    
+    if multiplo_de_dois:
+        return f"{numero} é par"
+    else:
+        return f"{numero} é ímpar"
 
 print(par_impar(2))
